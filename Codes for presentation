@@ -1,0 +1,207 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass{beamer}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Working Paper Series]{The Effects of Drug-Related Violence on Labor Productivity in Mexico } % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author{Zahra Lodhi} % Your name
+\institute[UTD] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+University of Texas at Dallas \\ % Your institution for the title page
+\medskip
+\textit{zahra.lodhi@utdallas.edu} % Your email address
+}
+\date{\today} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame}
+
+\begin{frame}
+\frametitle{Overview} % Table of contents slide, comment this block out to remove it
+\tableofcontents % Throughout your presentation, if you choose to use \section{} and \subsection{} commands, these will automatically be printed on this slide as an overview of your presentation
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+\section{Contributions of the Paper} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
+
+\section{Model Specification} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
+
+\section{Statistical Calculations} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
+
+\section{Policy Recommendations} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
+
+
+\begin{frame}
+\frametitle{Contributions of the Paper}
+The paper uses spatial econometric framework to study the effects of drug related violence on labor productivity in Mexico. 
+
+
+\hspace{}
+\par Unique contributions:
+\begin{itemize}
+\item Spatial spillover effects
+\item  Spatial disparities
+\end{itemize}
+
+\hspace{}
+
+\par Use of instrumental variables:
+\begin{itemize}
+\item Government spending on public security
+\item Seizures of drugs
+\item Seizures of guns
+\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Model Specification}
+As the study compares states/regions, the authors might consider including:
+
+
+\hspace{}
+\par Poverty Rate  
+\begin{itemize}
+\item Criminal organizations are more successful at recruiting people with lower incomes 
+\item  Levitt and Venkatesh (2000)
+\end{itemize}
+
+\hspace{}
+
+\par Drug Trafficking Organizations (DTOs)
+\begin{itemize}
+\item End of Fox’s administration
+\item 9,329 in 2004 vs. 10,452 in 2006
+\end{itemize}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Statistical Calculations}
+
+ 
+\begin{itemize}
+\item The fourth IV could be added to Table 2 which calculates Bi-variate Moran’s I
+\item  Two of the most widely used indices of spatial auto-correlation are Moran’s I and Geary’s C (Reference: 177-178)
+\item Table 3 presents Global Moran’s I and Geary’s C for drug-related violence and labor productivity. 
+
+\end{itemize}
+\end{frame}
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Policy Recommendations}
+`` We confirm that spatial panel regression analysis points to the necessity of regional policy coordination among the states to reduce spillovers of drug-related violence and their negative effect on economic growth " (Reference: 346-350)
+
+ 
+\begin{itemize}
+\item Ramajo et al. (2017) identify the ``leading regions" in Spain
+\item ``DRV generators"
+\item Panel Data: authors could have identified the channels of transmission of spillovers
+\item Spillover size or rate
+
+\end{itemize}
+\end{frame}
+
+
+%------------------------------------------------
+
+\begin{frame}
+\Huge{\centerline{Thank You!}}
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
